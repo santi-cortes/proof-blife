@@ -96,3 +96,34 @@ body {
 		opacity: 1;
 	}
 }
+
+.facebook {
+	background-image: url('../public/images/logos/facebook.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	background-size: cover;
+}
+
+.google {
+	background-image: url('../public/images/logos/google.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	background-size: cover;
+}
+.apple {
+	background-image: url('../public/images/logos/apple.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	background-size: cover;
+}
+
+.closeTag {
+	background-image: url('../public/images/logos/x.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	background-size: cover;
+}

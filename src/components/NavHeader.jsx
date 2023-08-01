@@ -4,8 +4,7 @@ import NoonLogo from './Logos/NoonLogo';
 const NavHeader = () => {
 	const { data, setData } = useMainContext();
 	const handleModal = () => {
-		console.log(data);
-		setData(1);
+		setData(!data);
 	};
 	return (
 		<div className="flex flex-col sm:flex-row justify-between items-center px-8 my-4">

@@ -20,10 +20,9 @@ const Modal = () => {
 			>
 				<div className="bg-white p-4 rounded-xl relative">
 					<h1 className="text-3xl text-center mt-4">Inicia sesión</h1>
-					<img
+					<div
 						onClick={handleCloseModal}
-						className="w-[15px] h-[15px] absolute right-3 top-3 cursor-pointer"
-						src="./public/images/logos/x.png"
+						className="w-[15px] h-[15px] closeTag absolute right-3 top-3 cursor-pointer"
 					/>
 					<form className="flex flex-col gap-4 my-4 mx-2">
 						<div className="flex flex-col">
@@ -45,24 +44,15 @@ const Modal = () => {
 						</button>
 						<h1 className="text-center">O también ingresa con:</h1>
 						<button className="bg-white flex justify-center gap-2 text-black border-2 rounded-3xl p-2">
-							<img
-								className="w-[20px] h-[20px]"
-								src="./public/images/logos/google.png"
-							/>
+							<div className="w-[20px] h-[20px] google" />
 							<h1>Google</h1>
 						</button>
 						<button className="bg-[#385898] flex justify-center gap-2 text-white rounded-3xl p-2">
-							<img
-								className="w-[20px] h-[20px]"
-								src="./public/images/logos/facebook.png"
-							/>
+							<div className="w-[20px] h-[20px] facebook" />
 							Facebook
 						</button>
 						<button className="bg-white flex justify-center gap-2 border-2 text-black rounded-3xl p-2">
-							<img
-								className="w-[20px] h-[20px]"
-								src="./public/images/logos/apple.png"
-							/>
+							<div className="w-[20px] h-[20px] apple" />
 							Apple
 						</button>
 					</form>
