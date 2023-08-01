@@ -10,8 +10,8 @@ const MainCard = () => {
 		<div className="background-submain hover:shadow-sm transition-shadow duration-300 w-[96%] h-[94%] rounded-lg shadow-2xl">
 			<NavHeader />
 			{/* main content */}
-			<div className="w-[85%] animationWelcome sm:w-[80%] sm:ml-[100px] ml-[30px] my-16 flex flex-col justify-between h-[70%] sm:h-[76%]">
-				<div className="inter flex flex-col gap-6">
+			<div className="w-[85%] animationWelcome sm:w-[80%] sm:ml-[100px] ml-[30px] my-4 sm:my-16 flex flex-col justify-between h-[70%] sm:h-[76%]">
+				<div className="inter flex flex-col gap-2 sm:gap-6">
 					<h1 className="font-bold text-5xl sm:text-7xl sm:w-[460px]">
 						Make it awesome.
 					</h1>

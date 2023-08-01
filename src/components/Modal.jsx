@@ -18,7 +18,7 @@ const Modal = () => {
 					data ? '' : 'opacity-0 scale-0'
 				} transition-all duration-150 absolute inter flex justify-center items-center h-screen w-screen`}
 			>
-				<div className="bg-white p-4 rounded-xl relative">
+				<div className="bg-white py-4 px-6 rounded-xl relative">
 					<h1 className="text-3xl text-center mt-4">Inicia sesión</h1>
 					<div
 						onClick={handleCloseModal}

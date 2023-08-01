@@ -20,7 +20,7 @@ const CardIa = () => {
 					<StartsLogo2 size={20} />
 				</div>
 			</div>
-			<div className="flex flex-col ml-5 sm:ml-0 sm:flex-row gap-3 sm:gap-0 justify-between border-t-[1px] px-10 py-6">
+			<div className="flex flex-col ml-5 sm:ml-0 sm:flex-row gap-3 sm:gap-0 justify-between border-t-[1px] px-10 py-2 sm:py-4">
 				<div className="flex gap-2">
 					<div className="mt-1">
 						<StartsLogo size={20} />
