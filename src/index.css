@@ -15,6 +15,7 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
 }
 
 .background-main {
@@ -127,3 +128,22 @@ body {
 	background-clip: content-box;
 	background-size: cover;
 }
+
+canvas {
+	height: 650px;
+	width: 850px;
+}
+
+@media (max-width: 940px) {
+	canvas {
+		height: 450px !important;
+		width: 650px !important;
+	}
+}
+/* 
+@media (max-width: 780px) {
+	canvas {
+		height: 350px !important;
+		width: 550px !important;
+	}
+} */

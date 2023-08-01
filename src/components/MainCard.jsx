@@ -1,6 +1,9 @@
+/* eslint-disable react/no-unknown-property */
 import NavHeader from './NavHeader';
 import CardIa from './CardIa';
 import RightAngleLogo from './Logos/RightAngleLogo';
+import { Canvas } from '@react-three/fiber';
+import Model from './Model';
 import { useState } from 'react';
 
 const MainCard = () => {
@@ -32,6 +35,15 @@ const MainCard = () => {
 							<RightAngleLogo size={18} />
 						</div>
 					</button>
+					<div className="model absolute hidden sm:flex sm:bottom-[200px] sm:right-[-100px] md:right-[-25px] md:bottom-[220px] lg:right-[15px] lg:top-24">
+						<Canvas
+							camera={{ fov: 75, near: 0.1, far: 1000, position: [0, 0, 7] }}
+						>
+							<directionalLight intensity={0.8} position={[5, 20, 10]} />
+							<ambientLight intensity={0.4} />
+							<Model />
+						</Canvas>
+					</div>
 				</div>
 				<CardIa />
 			</div>
