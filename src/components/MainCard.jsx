@@ -9,6 +9,8 @@ import { useState } from 'react';
 const MainCard = () => {
 	const [onMouseEnter, setOnMouseEnter] = useState(false);
 
+	// eslint-disable-next-line no-unused-vars
+	let reload;
 	return (
 		<div className="background-submain hover:shadow-sm transition-shadow duration-300 w-[96%] h-[94%] rounded-lg shadow-2xl">
 			<NavHeader />
