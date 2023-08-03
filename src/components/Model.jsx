@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 const Model = () => {
-	const gltf = useLoader(GLTFLoader, './public/3dModels/model1.glb');
+	const gltf = useLoader(GLTFLoader, './3dModels/model1.glb');
 	const modelRef = useRef();
 
 	useFrame(() => {
